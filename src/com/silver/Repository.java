@@ -16,7 +16,7 @@ public class Repository {
 
 	}
 
-	public void delete(Order o) {
+	public void cancel(Order o) {
 		orderList.remove(o);
 
 	}
